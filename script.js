@@ -56,7 +56,7 @@ async function loadAlbum(username, albumName) {
     images.forEach(image => {
         if (image.name.endsWith('.jpg') || image.name.endsWith('.png') || image.name.endsWith('.gif')) {
             const imgCard = document.createElement('div');
-            imgCard.className = 'col-sm-6 col-md-4 rounded shadow'
+            imgCard.className = 'col-sm-12 col-md-4 rounded shadow'
             imgShow.appendChild(imgCard);
             const img = document.createElement('img');
             img.src = image.download_url;
