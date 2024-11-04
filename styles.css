@@ -1,3 +1,25 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=K2D:wght@300&display=swap" rel="stylesheet">
+
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300&display=swap');
+*{
+  font-family: 'K2D', sans-serif;
+}
+
+table {
+    width: 100%;
+    clear: both;
+    border-collapse: separate;
+    margin: 0px auto;
+    border-spacing: 0px;
+    border:1px
+}
+a {
+   // color: #0d6efd;
+    text-decoration: none;
+}
+
 body {
     font-family: K2D, sans-serif;
     background-color: #f0f0f0;
